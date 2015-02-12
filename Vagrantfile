@@ -18,4 +18,5 @@ Vagrant.configure(2) do |config|
     vb.memory = "512"
   end
   config.vm.provision :shell, :privileged => true, :path => "provision.sh" 
+  config.vm.hostname = "ansible-server"
 end
