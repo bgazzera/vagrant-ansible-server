@@ -4,6 +4,7 @@
   tasks:
   - name: copio este archivo
     template: src=file-changed.yml dest=/home/vagrant/ mode=0644
+        #
         #     notify:
         #         - echo algo
         # handlers:
